@@ -21,6 +21,7 @@ body {
 .aaa { 
   text-align: center;
 }
+}
 .centered-main-page-element {
   display: block;
   width: 500px;
@@ -145,5 +146,4 @@ ul li.editMode input[type=text] {
 
 ul li.editMode label {
   display:none;
-}
 }
