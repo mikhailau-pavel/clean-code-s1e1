@@ -17,6 +17,9 @@
   font-family: fantasy, cursive;
 }
 
+.fake-semantic {
+  display: none;
+}
 @media (max-width:768px) {
   .header { 
   text-align: center;
@@ -33,11 +36,10 @@
   display: inline-block;
   flex-grow: 1;
 }
-.task-row-wrapper /**//*check later*/{
+.task-list__new-task-wrapper {
   display: flex;
 }
-.task-list__to-do
-/*task-list__to-do_completed*/ {
+.task-list__to-do {
   margin: 0;
   padding: 0px;
 }
@@ -93,7 +95,7 @@
   display: block;
   margin: 0 0 20px;
 }
-#new-task /**/{
+#new-task {
   width: 318px;
 }
 
@@ -137,7 +139,7 @@
 }
 
 /* Completed */
-#completed-tasks /**/
+#completed-tasks
 .task-list__task-text {
   text-decoration: line-through;
   color: #888;
